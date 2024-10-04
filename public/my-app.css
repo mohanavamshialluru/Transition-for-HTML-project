@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    z-index: 1;
+}
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: row;
+}
+
+.center {
+    justify-content: space-evenly;
+    align-items: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+.nav-bar{
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    height:60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.nav-link {
+    padding: 12px 20px;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: white;
+    background-color: darkgrey;
+    font-size: 16px;
+    size: 20px;
+}
+.form-container {
+    width: 300px;
+    margin: 50px auto; /* Center the form with auto left-right margins */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 2s ease-in-out;
+}
+.form-container:hover{
+    background-color: black;
+}
+
+/* Style the form elements */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Margin below each input */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button style */
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.container{
+    margin:2%;
+    padding: 2%;
+    border: solid tomato;
+    box-sizing: content-box;
+}
+body {
+            font-family: Arial, sans-serif;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 30%;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: black;
+            transition: background-color ease;
+        }
+        .product:hover{
+            background-color: white;
+            width: 20%;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #666;
+        }
+        .product .price {
+            font-size: 20px;
+            color: #000;
+        }
+        .product button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #218838;
+        }
+        .video{
+            margin: 2%;
+            text-align: center;
+            }
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                max-width: 300px;
+                margin: auto;
+                text-align: center;
+                font-family: arial;
+              }
+              
+              .title {
+                color: grey;
+                font-size: 18px;
+              }
+              
+              button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+                font-size: 18px;
+              }
+              
+              a {
+                text-decoration: none;
+                font-size: 22px;
+                color: black;
+              }
+              
+              button:hover, a:hover {
+                opacity: 0.7;
+              }
+              .pro {
+                width: 100px;
+                height: 100px;
+                background: red;
+                align-items: center;
+                transition: width 2s;
+              }
+              
+              .pro:hover {
+                width: 300px;
+              }
